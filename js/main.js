@@ -1,11 +1,11 @@
 document.querySelector("#label").addEventListener("click", x);
 function x() {
-   if (document.querySelector("#label").textContent != "\uD83D\uDDD9") {
-      document.querySelector("#label").textContent = "\uD83D\uDDD9";
+   if (document.querySelector("#label").textContent != "X") {
+      document.querySelector("#label").textContent = "X";
       document.querySelector("#label").style.transform = "rotateY(360deg)";
       document.querySelector("#label").style.transition = "transform 1s";
    } else {
-      document.querySelector("#label").textContent = "\u2630";
+      document.querySelector("#label").textContent = "☰";
       document.querySelector("#label").style.transform = "rotateY(0deg)";
       document.querySelector("#label").style.transition = "transform 1s";
    }
